@@ -29,7 +29,7 @@ Estimate: Easy, 1 hour
 - Write unit tests
 Estimate: Easy, 2 hours
 ----
-- This likely requires adding UI for facilities to do this in the app. I don't know specifics, but it should include:
+This likely requires adding UI for facilities to do this in the app. I don't know clipboard app specifics, but it should include:
 - add button opening agent edit form for facility
 - add custom id entry to agent edit form for facility
 Estimate: Easy, 2 hours
@@ -39,3 +39,8 @@ Estimate: Easy, 2 hours
 - if no custom id exists, use internal db id of agent like before
 - Update unit tests
 Estimate: Easy, 2 hours
+
+#### Ticket 4: Update `generateReport` to display custom id's
+- Update the PDF conversion to include each agent's custom id wherever the internal id was previously used
+- Internal database id's should still be used when custom id is not present
+Estimate: Easy, 1 hour
